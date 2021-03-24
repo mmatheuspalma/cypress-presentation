@@ -1,0 +1,14 @@
+{
+  "name": "cypress-presentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",  
+  "scripts": {
+    "start": "cypress open",
+    "headed": "cypress run --headed",
+    "headless": "cypress run"
+  },
+  "dependencies": {
+    "cypress": "^6.8.0"
+  }
+}

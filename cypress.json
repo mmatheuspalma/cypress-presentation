@@ -1,0 +1,6 @@
+{
+  "projectId": "cypress-presentation",
+  "baseUrl":"https://empiricus.com.br",
+  "chromeWebSecurity": false,
+  "watchForFileChanges": false
+}
