@@ -1,6 +1,4 @@
 {
-  "projectId": "cypress-presentation",
-  "baseUrl":"https://empiricus.com.br",
-  "chromeWebSecurity": false,
-  "watchForFileChanges": false
+  "baseUrl":"http://localhost:3000",
+  "chromeWebSecurity": false
 }

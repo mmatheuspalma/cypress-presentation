@@ -14,23 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands';
+import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-
-import QueryString from 'qs';
-
-export const buildExternalUrl = (baseURL, path = '', queryParams) => {
-  const completeURL = `${baseURL}${path}${queryParams ? `?${QueryString.stringify(queryParams)}` : ''}`;
-
-  return completeURL;
-};
-
-export const buildSiteUrl = (page = '', queryParams) => {
-  return buildExternalUrl(Cypress.env('siteUrl'), page, queryParams);
-};
-
-export const buildPublicationsUrl = (page = '', queryParams = '') => {
-  return buildExternalUrl(Cypress.env('publicationsUrl'), page, queryParams);
-};
